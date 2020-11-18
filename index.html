@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+<!--responsividade-->
+<link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+<link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+<link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
     <title>NETFLIX CLONE</title>
 </head>
 <body>
@@ -25,10 +33,12 @@
                 <h3 class="titulo">THE MANDALORIAN</h3>
                 <p class="descricao">A saga de um guerreiro solitário, que também é um mercenário e pistoleiro, viajando pelos territórios esquecidos e marginais do espaço, logo após a queda do Império e antes da criação da temida Primeira Ordem.</p>
                 <div class="botoes">
-                    <button role="button" class="botao">
-                        <i class="fas fa-play"></i>
-                        ASSISTIR AGORA
-                    </button>
+                    <a href="https://www.youtube.com/watch?v=F8vk29h5DDI" target="_blank">
+                        <button role="button" class="botao"> 
+                            <i class="fas fa-play"></i>
+                            ASSISTIR AGORA
+                        </button>
+                    </a>
                     <button role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
@@ -37,6 +47,46 @@
             </div>
         </div>
     </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/01.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/02.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/03.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/04.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/05.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/06.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/07.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/08.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/09.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
 </body>
 </html>
